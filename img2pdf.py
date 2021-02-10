@@ -22,6 +22,10 @@ if __name__ == '__main__':
     for image in images:
         print(image)
         image_list.append(Image.open(image).convert('RGB'))
+
+    if not os.path.exists('tmp'):
+        os.makedirs('tmp')
+
     image_list[0].save(f'tmp/{file_name}.pdf', save_all=True, append_images=image_list[1:])
     with Pdf.open(f'tmp/{file_name}.pdf') as pdf:
         # owner: owner password
