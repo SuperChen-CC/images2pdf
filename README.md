@@ -28,7 +28,7 @@ Combine Multiple Images Into One PDF And Encryption
 
 4. Modify `image_path`, `file_name`, `owner` and `user` to your information
 
-   ![]()
+   ![Screenshot.png](https://github.com/SuperChen-CC/images2pdf/blob/main/static/Screenshot.png?raw=true)
 
 5. Run it, the pdf will be displayed in the current directory (or wherever you specify)
 
