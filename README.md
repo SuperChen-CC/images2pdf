@@ -32,3 +32,6 @@ Combine Multiple Images Into One PDF And Encryption
 
 5. Run it, the pdf will be displayed in the current directory (or wherever you specify)
 
+   ```shell
+   python img2pdf.py
+   ```
